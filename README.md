@@ -8,6 +8,8 @@ While preparing the timing report for 'Client-Server IPC using Named Pipes', I n
 
 The reason behind this undesirable runtime is that I was using a single channel to transfer over each data point or chunk in a sequential manner. In this project, I will take advantage of multithreading to implement our transfer functionality through multiple channels in a concurrent manner; this will improve on bottlenecks and make operations significantly faster.
 
+The pdf attached shows an extensive report of the code. 
+
 **Tasks**
 
 - [ ] Implement the BoundedBuffer class
